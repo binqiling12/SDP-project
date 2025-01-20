@@ -7,7 +7,7 @@ const app = express();
 
 // Enhanced CORS configuration for Vite React
 app.use(cors({
-    origin: ['https://sensational-lokum-5c0926.netlify.app', 'http://127.0.0.1:5173'],
+    origin: ['https://sensational-lokum-5c0926.netlify.app', https://php-myadmin.net/db_structure.php?db=if0_38140143_sdp_project],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
