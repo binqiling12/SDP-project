@@ -14,10 +14,10 @@ app.use(cors({
 app.use(express.json());
 
 const dbConfig = {
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'sdp_project'
+    host: 'sql113.infinityfree.com',
+    user: 'if0_38140143',
+    password: 'mysdpproject1',
+    database: 'd:\TGS KULIAH\Semester 5\code SDP final\backend_SDP'
 };
 
 async function queryDatabase(query, params) {
